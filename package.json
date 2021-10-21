@@ -6,7 +6,7 @@
     "name": "LuckyDay",
     "url": "http://www.luckyday.com"
   }, 
-  "displayName": "Advertising Identifier", 
+  "displayName": "Utility Package", 
   "keywords": [
     "Advertising", 
     "AdvertisingId", 
@@ -16,5 +16,5 @@
   ], 
   "description": "Advertising Identifier Fetcher. Uses Google Play AdvertisingIdClient", 
   "version": "1.0.0", 
-  "name": "com.dicekings.advertising-id"
+  "name": "com.dicekings.utility"
 }
