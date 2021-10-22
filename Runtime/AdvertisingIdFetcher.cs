@@ -16,7 +16,7 @@ namespace DiceKings.Utils
 		{
 			mCallback = callback;
 			
-			var fetcher = new AndroidJavaObject("com.miniit.android.AdvertisingIdFetcher");
+			var fetcher = new AndroidJavaObject("com.dicekings.android.AdvertisingIdFetcher");
 			fetcher.Call("requestAdvertisingId", new AdvertisingIdPluginCallback(OnAdvertisingIdReceived));
 		}
 
@@ -35,7 +35,7 @@ namespace DiceKings.Utils
 	{
 		private Action<string> mCallback;
 
-		public AdvertisingIdPluginCallback(Action<string> callback) : base("com.miniit.android.AdvertisingIdCallback")
+		public AdvertisingIdPluginCallback(Action<string> callback) : base("com.dicekings.android.AdvertisingIdCallback")
 		{
 			mCallback = callback;
 		}
